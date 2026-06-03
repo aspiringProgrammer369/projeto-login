@@ -43,7 +43,7 @@ section#login {
 
 section#login > div#imagem {
     display:block;
-    background: #5f2c82 url(../../imagens/pexels-g-cortez-1520507-5979793.webp);
+    background: #5f2c82 url(../imagens/pexels-g-cortez-1520507-5979793.webp);
     background-position: left bottom;
     background-size: cover;
     height: 200px;
@@ -52,4 +52,13 @@ section#login > div#imagem {
 section#login > div#formulario {
     display:block;
     padding: 10px;
+}
+
+div#formulario {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.5em;
 }
